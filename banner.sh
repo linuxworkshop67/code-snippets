@@ -7,3 +7,5 @@ echo -e "└──────────────────────�
 # ┌ ┐
 # └ ┘
 # │ 
+# This is the code for checking if $1 is set:
+[ -z $1 ] && echo "No argument given exiting now" && exit
